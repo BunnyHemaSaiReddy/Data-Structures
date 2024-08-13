@@ -60,7 +60,7 @@ class linkedlist:
     def first_delete(self):
         self.head=self.head.next
 obj=linkedlist()
-obj.add(10)
+'''obj.add(10)
 obj.add(200)
 obj.add(300)
 obj.display()
@@ -73,8 +73,24 @@ obj.add(500)
 print("----")
 obj.display()
 obj.first_delete()
-print("---------")
+print("---------")'''
 obj.display()
+print('''Write the command :
+    for push - add(item),add_first(item)
+    for pop - pop(),first_delete()
+    for display - display()
+    for top element - peek()
+    for exit - break or exit
+''')
+while True:
+    prompt=input(">>>").strip()
+    if prompt in ['break','exit']:
+        print("quit..")
+        break
+    try:
+        eval("obj."+prompt)
+    except Exception as e:
+        print("Exception :",e,'\n no such operation :',prompt)
 
 
 
