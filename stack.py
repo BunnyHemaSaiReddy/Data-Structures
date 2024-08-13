@@ -42,7 +42,7 @@ print('''Write the command :
     for exit - break or exit
 ''')
 while True:
-    prompt=input(">>>").strip()
+    prompt=input(">>>").strip().lower()
     if prompt in ['break','exit']:
         print("quit..")
         break
