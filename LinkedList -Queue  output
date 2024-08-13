@@ -1,0 +1,47 @@
+PS D:\PYHTON\bunny> & D:/PYHTON/python.exe "d:/PYHTON/bunny/#linked list.py"
+Write the command :
+    for push - add(item),add_first(item)
+    for pop - pop(),first_delete()
+    for display - display()
+    for top element - peek()
+    for exit - break or exit
+
+>>>add(10)
+>>>add(20) 
+>>>add(30) 
+>>>add(40) 
+>>>add(50) 
+>>>display()
+10
+20
+30
+40
+50
+>>>peek()
+50
+>>>pop()
+>>>peek()
+40
+>>>first_delete()
+>>>display()
+20
+30
+40
+>>>add_first(10)
+>>>
+Exception : invalid syntax (<string>, line 1) 
+ no such operation : 
+>>>display()     
+10
+20
+30
+40
+>>>add(50)
+>>>display()
+10
+20
+30
+40
+50
+>>>exit
+quit..
